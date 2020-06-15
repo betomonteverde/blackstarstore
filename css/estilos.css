@@ -1,0 +1,44 @@
+/*Estilos Redes Sociales*/
+
+footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover {
+    background: #1da1f2;
+}
+
+footer .redes-sociales .instagram:hover {
+    background: #e1306c;
+}
+
+footer .redes-sociales .facebook:hover {
+    background: #3b5998;
+}
+
+
+footer .redes-sociales .youtube:hover {
+    background: #ff0000;
+}
+
+/*--------------Media Queries--------------*/
+
+@media screen and (max-width: 500px) {
+
+    footer .redes-sociales {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
